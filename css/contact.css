@@ -12,7 +12,32 @@
 }
 
 
-input[type="text"],input[type="email"],textarea {
+#email {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px ;
+    padding: 12px 20px;
+}
+
+
+#nombre{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px ;
+    padding: 12px 20px;
+}
+
+#subject{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 8px ;
+    padding: 12px 20px;
+}
+
+#mensaje{
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -42,3 +67,4 @@ input[type="submit"]:hover {
 
 input[type="submit"]:active {
     background-color: rgb(170, 160, 150); }
+
