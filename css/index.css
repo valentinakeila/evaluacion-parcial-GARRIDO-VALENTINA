@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+    font-family: Verdana;
+    color: rgb(71, 71, 71);
+    font-size: small;
+}
+
+.cabecera {
+    background-color: orange;
+    color: white;
+}
+
+
+.presentacion {
+    background-color: white;
+    margin: 2%;
+    color: rgb(92, 92, 92);
+    padding: 2%;
+    border-radius: 10px;
+    grid-column: span 3; 
+    border-radius: 2em;
+    
+}
+
+.nav-bar {
+    display: flex;
+    
+}
+
+.title {
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 2em;
+}
+
+.date {
+    color: gray;
+    font-size: small;
+}
+
+
+.cabecera {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 5px;
+    
+    
+}
+ 
+.picture{
+    grid-row: span 4;
+    align-content: center;
+    margin-top: 10%;
+}
+.profile-picture {
+    grid-column: span 2; 
+    margin-left: 20%;
+    border-radius: 50%;
+   
+    
+}
+
+
+
+
+.datos {
+    background-color: rgba(249, 231, 159, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+   
+   
+    
+    
+}
+
+
+
+.titleHeader {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+
+.barra-lateral {
+    flex: 1;
+    padding-right: 2%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.navContacto {
+    margin-top: 5%;
+    background-color: rgb(160, 64, 0);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 5%;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contactoLink{
+    text-decoration: none;
+}
+
+.navContacto:hover {
+    background-color: rgb(230,
+    126, 34)
+    ;
+}
+.navContacto:active{
+    background-color: rgb(170, 160, 150);
+}
+
+.nav-bar{
+    background-color:  rgb(253, 235, 208);
+    
+}
+
+.contenido{
+    background-color: white;
+}
+
+h3{
+    background-color: rgb(241,196,15);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 4px;
+
+
+   
+}
+
+h1{
+    font-size: 30px;
+}
+
+
+a{
+    color: rgb(121, 121, 121);
+}
+
+a:active{
+    color: white;
+}
