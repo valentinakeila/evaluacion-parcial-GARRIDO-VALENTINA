@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
 .formularioContacto {
     background-color: #f2f2f2;
     border-radius: 5px;
@@ -11,22 +12,12 @@
     margin-right: 10%;
 }
 
-
-#email {
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin: 8px ;
-    padding: 12px 20px;
-}
-
-
 #nombre{
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin: 8px ;
-    padding: 12px 20px;
+    padding: 12px 20px; 
 }
 
 #subject{
@@ -37,7 +28,8 @@
     padding: 12px 20px;
 }
 
-#mensaje{
+
+input[type="email"],textarea {
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -67,4 +59,3 @@ input[type="submit"]:hover {
 
 input[type="submit"]:active {
     background-color: rgb(170, 160, 150); }
-
